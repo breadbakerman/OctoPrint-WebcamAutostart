@@ -1,0 +1,24 @@
+<h3>{{ _('Webcam Autostart') }}</h3>
+<div>
+    <form class="form-horizontal">
+        <div class="control-group">
+            <label class="control-label">{{ _('Automatically start') }}</label>
+            <div class="controls">
+                <div class="input-append">
+                    <input type="checkbox" class="input-block-level" data-bind="checked: settings.plugins.webcamautostart.autostartWebcam">
+                </div>
+                <span class="help-block">{{ _('This will start the webcam as soon as a print job is started.') }}</span>
+            </div>
+        </div>
+        <div class="control-group">
+            <label class="control-label">{{ _('Automatically stop') }}</label>
+            <div class="controls">
+                <div class="input-append">
+                    <input type="checkbox" class="input-block-level" data-bind="checked: settings.plugins.webcamautostart.autostopWebcam">
+                </div>
+                <span class="help-block">{{ _('This will stop the webcam when a print job has finished, failed or was cancelled.') }}</span>
+            </div>
+        </div>
+    </form>
+</div>
+
