@@ -20,7 +20,7 @@ class WebcamautostartPlugin(octoprint.plugin.SettingsPlugin,
 	def get_settings_defaults(self):
 		return dict(
 			autostartWebcam=1,
-            autostopWebcam=1,
+			autostopWebcam=1,
 		)
 
 	def on_settings_save(self, data):

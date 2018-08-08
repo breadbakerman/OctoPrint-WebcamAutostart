@@ -15,7 +15,7 @@ $(function() {
     }
 
     OCTOPRINT_VIEWMODELS.push({
-        construct: AutocollapseViewModel,
+        construct: WebcamautostartViewModel,
         dependencies: [ 'settingsViewModel' ],
     });
 });
